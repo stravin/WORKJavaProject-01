@@ -7,6 +7,16 @@ package com.grey.project;
  */
 public class MyProject {
     public static void main(String[] args) {
-        System.out.println("It is MyProject!");
+        new MyProject().printProjectInfo(true);
+    }
+
+    public void printProjectInfo(boolean fullInfo) {
+        if (fullInfo == true) {
+            System.out.println("The MyProject");
+            System.out.println("is intended to learn");
+            System.out.println("the Java language.");
+        } else {
+            System.out.println("It is MyProject.");
+        }
     }
 }
