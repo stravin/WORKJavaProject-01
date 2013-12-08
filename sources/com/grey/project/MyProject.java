@@ -10,6 +10,10 @@ public class MyProject {
         new MyProject().printProjectInfo(true);
     }
 
+    /**
+     * Prints the infomation about the MyProject class.
+     * @param fullInfo a flag for setting how mach information will be printed
+     */
     public void printProjectInfo(boolean fullInfo) {
         if (fullInfo == true) {
             System.out.println("The MyProject");
